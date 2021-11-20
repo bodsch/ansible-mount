@@ -1,0 +1,9 @@
+---
+
+- include_tasks: prepare.yaml
+
+#- include_tasks: installation.yml
+
+- include_tasks: configure.yml
+
+...
