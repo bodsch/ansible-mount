@@ -33,7 +33,7 @@ class FilterModule(object):
 
         display.v("- data {} {}".format(data, type(data)))
 
-        result = [ d['fstype'] for d in data ]
+        result = [d['fstype'] for d in data]
 
         display.v("result {} {}".format(result, type(result)))
 

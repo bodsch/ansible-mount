@@ -27,4 +27,3 @@
     mount_fstypes: "{{ mount_devices | fstypes }}"
 
 ...
-

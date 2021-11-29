@@ -2,8 +2,8 @@
 
 - name: install cifs required packages
   package:
-     name: "{{ smb_packages }}"
-     state: present
+    name: "{{ smb_packages }}"
+    state: present
   when:
     - mount_fstypes | regex_search("cifs")
 
@@ -15,4 +15,3 @@
     - mount_fstypes | regex_search("nfs*")
 
 ...
-

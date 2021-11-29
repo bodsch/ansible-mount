@@ -31,6 +31,7 @@
   with_items: '{{ mount_devices }}'
   loop_control:
     label: 'mountpoint: {{ item.mountpoint }} - from: {{ item.source }}'
-  ignore_errors: yes
+  ignore_errors: true
+  failed_when: false
 
 ...
