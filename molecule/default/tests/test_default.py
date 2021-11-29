@@ -56,3 +56,12 @@ def get_vars(host):
     result = templar.template(ansible_vars, fail_on_undefined=False)
 
     return result
+
+
+@pytest.mark.parametrize("files", [
+    "/etc/fstab"
+])
+def test_files(host, files):
+
+    d = host.file(files)
+    assert d.is_file
