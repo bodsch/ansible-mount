@@ -1,7 +1,29 @@
 # Ansible Role:  `mount`
 
-
 Manage generic mountpoints
+
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/bodsch/ansible-icinga2/CI)][ci]
+[![GitHub issues](https://img.shields.io/github/issues/bodsch/ansible-mount)][issues]
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/bodsch/ansible-mount)][releases]
+
+[ci]: https://github.com/bodsch/ansible-mount/actions
+[issues]: https://github.com/bodsch/ansible-mount/issues?q=is%3Aopen+is%3Aissue
+[releases]: https://github.com/bodsch/ansible-mount/releases
+
+
+### Operating systems
+
+Tested on
+
+* Debian based
+    - Debian 9 / 10 / 11
+    - Ubuntu 18.04 / 20.04
+* RedHat based
+    - CentOS 8 (**not longer supported**)
+    - Alma Linux 8
+    - Rocky Linux 8
+    - OracleLinux 8
+* ArchLinux
 
 ## Role Variables
 
@@ -81,6 +103,7 @@ The `master` Branch is my *Working Horse* includes the "latest, hot shit" and ca
 
 If you want to use something stable, please use a [Tagged Version](https://gitlab.com/bodsch/ansible-mount/-/tags)!
 
+---
 
 ## Author
 
