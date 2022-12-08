@@ -1,14 +1,14 @@
 ---
 
 - name: install cifs required packages
-  package:
+  ansible.builtin.package:
     name: "{{ smb_packages }}"
     state: present
   when:
     - mount_fstypes | regex_search("cifs")
 
 - name: install nfs required packages
-  package:
+  ansible.builtin.package:
     name: "{{ nfs_packages }}"
     state: present
   when:

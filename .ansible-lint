@@ -1,6 +1,5 @@
 ---
 
 skip_list:
-  - experimental
-
-...
+  - name[casing]
+  - name[template]
