@@ -15,15 +15,8 @@ class FilterModule(object):
 
     def filters(self):
         return {
-            'type': self.var_type,
             'fstypes': self.fstypes
         }
-
-    def var_type(self, var):
-        '''
-          Get the type of a variable
-        '''
-        return type(var).__name__
 
     def fstypes(self, data):
         """
