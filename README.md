@@ -2,7 +2,7 @@
 
 Manage generic mountpoints
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/bodsch/ansible-icinga2/CI)][ci]
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/bodsch/ansible-mount/main.yml?branch=main)][ci]
 [![GitHub issues](https://img.shields.io/github/issues/bodsch/ansible-mount)][issues]
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/bodsch/ansible-mount)][releases]
 
@@ -15,15 +15,14 @@ Manage generic mountpoints
 
 Tested on
 
-* Debian based
-    - Debian 9 / 10 / 11
-    - Ubuntu 18.04 / 20.04
-* RedHat based
-    - CentOS 8 (**not longer supported**)
-    - Alma Linux 8
-    - Rocky Linux 8
-    - OracleLinux 8
 * ArchLinux
+* Debian based
+    - Debian 10 / 11 / 12
+    - Ubuntu 20.04 / 22.04
+
+> **RedHat-based systems are no longer officially supported! May work, but does not have to.**
+
+
 
 ## Role Variables
 
@@ -113,4 +112,4 @@ If you want to use something stable, please use a [Tagged Version](https://githu
 
 [Apache](LICENSE)
 
-`FREE SOFTWARE, HELL YEAH!`
+**FREE SOFTWARE, HELL YEAH!**

@@ -5,21 +5,21 @@ galaxy_info:
 
   author: Bodo Schulz
   description: manage generic mountpoints
+
   license: Apache
-  min_ansible_version: "2.10"
+  min_ansible_version: "2.9"
 
   platforms:
     - name: ArchLinux
     - name: Debian
       versions:
-        # 9
-        - etch
         # 10
         - buster
+        # 11
+        - bullseye
+        - bookworm
     - name: Ubuntu
       versions:
-        # 18.04
-        - bionic
         # 20.04
         - focal
 
